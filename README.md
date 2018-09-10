@@ -9,6 +9,11 @@ https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-apt?view=azure-cli-
 
 https://docs.microsoft.com/en-us/powershell/azure/install-azurerm-ps?view=azurermps-6.8.1
 
+**Install cloud-init on Ubuntu**
+```
+sudo apt-get install cloud-init
+```
+
 **Sign in to Azure from a PowerShell Session**
 ```
 # Import the module into the PowerShell session

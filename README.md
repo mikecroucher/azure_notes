@@ -9,6 +9,14 @@ https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-apt?view=azure-cli-
 
 https://docs.microsoft.com/en-us/powershell/azure/install-azurerm-ps?view=azurermps-6.8.1
 
+**Sign in to Azure from a PowerShell Session**
+```
+# Import the module into the PowerShell session
+Import-Module AzureRM
+# Connect to Azure with an interactive dialog for sign-in
+Connect-AzureRmAccount
+```
+
 **List locations**
 ```
 az account list-locations

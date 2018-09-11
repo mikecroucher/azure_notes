@@ -34,3 +34,5 @@ az group create --name myResourceGroupSecureWeb2 --location westus2
 
 **List all running VMs**
 az vm list --show-details --query "[?powerState=='VM running'].{Name:name}" -o table
+**List them all with their IP address**
+az vm list --show-details --query "[?powerState=='VM running'].{Name:name,IP:publicIps}" -o table

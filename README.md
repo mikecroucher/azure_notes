@@ -41,3 +41,8 @@ az vm list --show-details --query "[?powerState=='VM running'].{Name:name}" -o t
 ```
 az vm list --show-details --query "[?powerState=='VM running'].{Name:name,IP:publicIps}" -o table
 ```
+
+**Delete a VM**
+```
+az vm delete -g resource_groupname -n VMName --yes
+```

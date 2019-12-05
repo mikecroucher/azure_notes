@@ -16,6 +16,21 @@ pip install azure-cli
 az login 
 ```
 
+Look at available regions
+```
+az account list-locations -o table
+```
+
+Create a resource group in one of the regions
+```
+az group create --name NAGTraining --location ukwest
+```
+
+List resource groups
+```
+az group list -o table
+```
+
 **Install the az CLI client on the WSL**
 
 https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-apt?view=azure-cli-latest

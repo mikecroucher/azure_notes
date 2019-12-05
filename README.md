@@ -1,6 +1,21 @@
 # azure notes
 My notes on how to do stuff in Azure
 
+## New account on a new laptop
+
+Start off with a new conda environment
+```
+conda create -n azure Python=2.7
+conda activate azure
+```
+Install the azure cli and log on to the azure account
+```
+## This may take a while
+pip install azure-cli
+## Opens up a browser window where you put your credentials in
+az login 
+```
+
 **Install the az CLI client on the WSL**
 
 https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-apt?view=azure-cli-latest

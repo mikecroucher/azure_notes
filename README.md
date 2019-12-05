@@ -5,7 +5,7 @@ My notes on how to do stuff in Azure
 
 Start off with a new conda environment
 ```
-conda create -n azure Python=2.7
+conda create -n azure Python=3.7
 conda activate azure
 ```
 Install the azure cli and log on to the azure account
